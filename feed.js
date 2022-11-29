@@ -7,7 +7,7 @@ const feed = {
         {
             title: "like the 3rd total remake launch lol",
             link: "",
-            description: "it's 1:26 am aand im pubilshing the site again it's getting there",
+            description: "it's 1:26 am aand im pubilshing the site again, if an old link is broken a copy of the old site is at old.cinimin.net",
             pubDate: 11292022
         },
         {
