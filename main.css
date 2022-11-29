@@ -1,0 +1,92 @@
+*{
+    image-rendering: pixelated;
+    box-sizing: border-box;
+    scrollbar-color: white black;
+}
+
+body {
+    background-color: black;
+    background-image: url('img/background.png');
+    background-size: cover;
+    color: red;
+    font-family: 'ms gothic';
+}
+
+header {
+    margin: 60px auto 50px auto;
+    width: max-content;
+}
+
+header h1 {
+    font-weight: normal;
+}
+
+main {
+    background-image: url('img/yeyek.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto 0 auto;
+    width: 800px;
+    height: 650px;
+    padding: 0 100px 100px 100px;
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: 100%;
+    overflow: hidden;
+}
+
+#nav {
+    list-style-type: none;
+    padding-left: 10px;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#nav::-webkit-scrollbar {
+    display: none;
+}
+
+#nav hr {
+    margin-top: 0;
+    margin-right: 80px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: white;
+}
+
+#feed {
+    width: auto;
+    background-color: black;
+    padding-right: 10px;
+}
+
+#feed h3 {
+    margin: 10px  auto 0 0;
+}
+
+#feed h3 a {
+    width: min-content;
+    text-decoration: none;
+    color: red;
+}
+
+#feed h3 a:hover {
+    color: white;
+}
+
+#feed h6 {
+    margin: 3px auto 3px 20px;
+}
+
+footer {
+    margin: auto;
+    margin-top: 50px;
+
+}

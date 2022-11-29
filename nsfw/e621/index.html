@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <p class="desc">Suggests e6 posts based on search query. Default/suggested threshold is 1000, higher is stricter lower is looser.<br>
+            Check your highest after a default run to see how much higher you could push your threshold (it gets way bigger than you think).<br>
+            times out on 20th set. Check out code <a href="https://github.com/Ciniminbun/cinimin-home/blob/master/nsfw/e621/js/e6API.js">here.</a></p>
+        <main>
+            <div class="top-panel">
+                <form class="search" action="index.html">
+                    <input name="tags" type="text" id="input" placeholder="Username..."  value="">
+                    <input name="include" type="text" id="include" placeholder="Results include..."  value="">
+                    <!-- <input name="thresh" type="number" id="threshInput" placeholder="Threshold"  value="1000"> -->
+                    <input type="submit" class="button" value="Submit">
+                </form>
+                <div>v0.36</div>
+            </div>
+            <div id="loader"></div><div id="debug"></div>
+            <div id='imgboard'></div>
+        </main>
+        <script src='js/e6API.js' onload="fillBoard()"></script>
+    </body>
+</html>

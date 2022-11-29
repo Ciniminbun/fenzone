@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>theideasdotcom</title>
+	<meta charset="utf-8">
+	<meta property="og:site" content="theIdeasdotcom">
+	<meta name="viewport" content="width=500">
+	<meta name="description" content="theIdeasdotcom">
+	<meta property="og:title" content="theIdeasdotcom">
+	<meta property="og:description" content="theIdeasdotcom">
+	<meta property="og:image" content="images/lightbulbbg.png">
+	<meta property="og:url" content="">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/ico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/ico/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/ico/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/ico/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/ico/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/ico/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/ico/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/ico/favicon-16x16.png">
+	<link rel="manifest" href="/images/ico/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/ico/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<link href="main.css" rel="stylesheet">
+</head>
+<body class="">
+
+	<header class="unselectable box_shadow" id="top">
+		<h1 class="title">theIdeasdotcom</h1>
+	</header>
+	
+	<nav class="box_shadow">
+		<form action="index.html">
+			<input type="text" id="tags" name="tags" placeholder="Search..."  value="" class="searchbar">
+		</form>
+	</nav>
+
+	<div class="main-grid">
+		<ul class="menu box_shadow">
+			<li><a href="index.html"><div class="unselectable">Home</div></a></li>
+			<li><a href="#top"><div class="unselectable">Page Top</div></a></li>
+			<li><a onclick="togTheme()"><div class="unselectable">Theme</div></a></li>
+		</ul>
+		<main class="box_shadow" id="main"><div id="card-grid"></div></main>
+		<ul id="taglist" class="box_shadow"></ul>
+	</div>
+	<script type="text/javascript" src="javascript/ideas.js"></script>
+
+	<footer id="footer" class="box_shadow"></footer>
+	<script type="text/javascript" src="javascript/footerFill.js"></script>
+
+</body>
+</html>

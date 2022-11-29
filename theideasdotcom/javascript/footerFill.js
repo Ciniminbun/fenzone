@@ -1,0 +1,2 @@
+content = "<a href='https://cinimin.net/'>cinimin</a> • <a href='https://www.reddit.com/r/DPSRP/'>r/DPSRP</a> • <a href='https://cinimin.net/library/penquiney.html'>penquiney</a>"
+document.getElementById("footer").innerHTML = content;
