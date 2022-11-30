@@ -1,7 +1,4 @@
-var mainElement = document.getElementsByTagName("main")[0],
-feedSpot = document.getElementById('feedspot');
-
-function BuildFeedHTML() {
+function BuildFeed() {
     thing = `<div id='feed'><hr>`
     tempFeedList = feed.items;
     for (let i = 0; i < feed.items.length; i++){
@@ -25,11 +22,10 @@ function Format8Date(raw, version) {
     return versionList[version]
 }
 
-mainElement.innerHTML += BuildFeedHTML();
-
 function BuildNav() {
     let yes = `<li><a href="https://cinimin.net">home</a></li>
     <li><a href="https://cinimin.net/about.html">about me</a></li>
+    <li><a href="https://cinimin.net/art.html/">recs</a></li>
     <li><a href="https://cinimin.net/keys/">xtra keys</a></li>
     <br>
     <li><b>social</b></li>
@@ -45,5 +41,3 @@ function BuildNav() {
 
     return yes
 }
-
-document.getElementById("nav").innerHTML = BuildNav();
