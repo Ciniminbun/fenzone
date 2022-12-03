@@ -58,3 +58,20 @@ const buttonList = [
     'tohell.gif',
     'typhrakromer.gif'
 ]
+
+const recsList = [
+    {
+        title: 'not nice - fryoum',
+        thumb: 'https://i1.sndcdn.com/artworks-QMIQqs49y9jZoj5S-YEP3eQ-t500x500.jpg',
+        link: 'https://soundcloud.com/fvckyoumate/not-nice',
+        desc: '<a href="https://soundcloud.com/fvckyoumate/sets/world-ends-with-you">check out the full album</a>',
+        date: 12032022
+    },
+    {
+        title: 'reasonsnotto - Alexander Panos',
+        thumb: 'https://i1.sndcdn.com/artworks-xxgQ4e4SaP1hOdFt-pevaDg-t500x500.jpg',
+        link: 'https://soundcloud.com/alexanderpanos/reasonsnotto',
+        desc: 'aaaaalfdjkghdkyufhjg;huioh conversation :3',
+        date: 12032022
+    },
+]

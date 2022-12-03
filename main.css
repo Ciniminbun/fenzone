@@ -65,6 +65,13 @@ a:hover {
     width: auto;
     background-color: black;
     padding-right: 10px;
+    overflow: scroll;
+}
+
+#feed img {
+    width: 69px;
+    float: left;
+    margin: 3px 10px 0 0;
 }
 
 #feed h3 {

@@ -1,5 +1,5 @@
-function BuildFeed() {
-    thing = `<div id='feed'><hr>`
+function BuildFeed(desc) {
+    thing = `<div id='feed'>${desc}<hr>`
     tempFeedList = feed.items;
     for (let i = 0; i < feed.items.length; i++){
         thing += `
@@ -25,7 +25,7 @@ function Format8Date(raw, version) {
 function BuildNav() {
     let yes = `<li><a href="https://cinimin.net">home</a></li>
     <li><a href="https://cinimin.net/about.html">about me</a></li>
-    <li><a href="https://cinimin.net/art.html/">recs</a></li>
+    <li><a href="https://cinimin.net/recs.html/">recs</a></li>
     <li><a href="https://cinimin.net/keys/">xtra keys</a></li>
     <br>
     <li><b>social</b></li>
@@ -40,4 +40,19 @@ function BuildNav() {
     }
 
     return yes
+}
+
+function BuildRecs(desc) {
+    thing = `<div id='feed'>${desc}<hr>`
+    tempFeedList = recsList;
+    for (let i = 0; i < recsList.length; i++){
+        thing += `
+        <img src="${recsList[i].thumb}">
+            <h3><a href="${recsList[i].link}" target="_blank">${recsList[i].title}</a></h3>
+            <h6>${Format8Date(recsList[i].date, 1)}</h6>
+            ${recsList[i].desc}<hr>
+        `
+    }
+    thing += `</div>`
+    return thing
 }
