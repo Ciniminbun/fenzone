@@ -4,7 +4,22 @@
     scrollbar-color: white black;
 }
 
+::-webkit-scrollbar {
+    background: black;
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    width: 2px;
+}
+
+::-webkit-scrollbar-track{
+    width: 5px;
+}
+
 body {
+    line-height: 1.1em;
     background-color: black;
     background-image: url('img/background.png');
     background-size: cover;
@@ -12,8 +27,13 @@ body {
     font-family: 'ms gothic';
 }
 
+hr {
+    color: #666;
+    border-color: #666;
+}
+
 header {
-    margin: 60px auto 50px auto;
+    margin: 70px auto 60px auto;
     width: max-content;
 }
 
@@ -78,6 +98,7 @@ a:hover {
 
 #feed h3 {
     margin: 10px  auto 0 0;
+    font-weight: normal;
 }
 
 #feed h3 a {
@@ -92,6 +113,7 @@ a:hover {
 
 #feed h6 {
     margin: 3px auto 3px 20px;
+    font-weight: normal;
 }
 
 footer {
