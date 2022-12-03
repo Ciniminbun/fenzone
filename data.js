@@ -61,6 +61,13 @@ const buttonList = [
 
 const recsList = [
     {
+        title: 'big blues - bickle',
+        thumb: 'https://i1.sndcdn.com/artworks-Qee57qR41yCtg0d2-p1mvDQ-t500x500.jpg',
+        link: 'https://soundcloud.com/heybickle/bigblues',
+        desc: 'first of like a billion bickle recs i will make i lov his stuf :3',
+        date: 12032022
+    },
+    {
         title: 'not nice - fryoum',
         thumb: 'https://i1.sndcdn.com/artworks-QMIQqs49y9jZoj5S-YEP3eQ-t500x500.jpg',
         link: 'https://soundcloud.com/fvckyoumate/not-nice',

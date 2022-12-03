@@ -69,7 +69,8 @@ a:hover {
 }
 
 #feed img {
-    width: 69px;
+    height: 69px;
+    width: auto;
     float: left;
     margin: 3px 10px 0 0;
 }
