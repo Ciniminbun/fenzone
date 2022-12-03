@@ -101,7 +101,10 @@ a:hover {
     font-weight: normal;
 }
 
-#feed h2 {font-weight: normal;}
+#feed h2 {
+    font-weight: normal;
+    margin-bottom: 7px;
+}
 
 #feed h3 a {
     width: min-content;
