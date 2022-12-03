@@ -126,3 +126,13 @@ footer {
     margin-top: 50px;
 
 }
+
+@media (pointer:none), (pointer:coarse) {
+    @font-face {
+        font-family: "Backup Gothic";
+        src: url(https://cinimin.net/fonts/MS-Gothic.ttf);
+    }
+    *{
+        font-family: 'Backup Gotchic';
+    }
+}
