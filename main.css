@@ -65,11 +65,12 @@ a:hover {
     width: auto;
     background-color: black;
     padding-right: 10px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 #feed img {
-    height: 69px;
+    height: 56px;
     width: auto;
     float: left;
     margin: 3px 10px 0 0;

@@ -61,6 +61,13 @@ const buttonList = [
 
 const recsList = [
     {
+        title: 'chroma - quickly, quickly',
+        thumb: 'https://i1.sndcdn.com/artworks-pAIJHiRkbJbAyg7X-gR9uuw-t500x500.jpg',
+        link: 'https://soundcloud.com/quicklyquickly/chroma',
+        desc: '<img src="img/dancey.gif" style="height: 1em">,',
+        date: 12032022
+    },
+    {
         title: 'big blues - bickle',
         thumb: 'https://i1.sndcdn.com/artworks-Qee57qR41yCtg0d2-p1mvDQ-t500x500.jpg',
         link: 'https://soundcloud.com/heybickle/bigblues',
@@ -79,6 +86,13 @@ const recsList = [
         thumb: 'https://i1.sndcdn.com/artworks-xxgQ4e4SaP1hOdFt-pevaDg-t500x500.jpg',
         link: 'https://soundcloud.com/alexanderpanos/reasonsnotto',
         desc: 'aaaaalfdjkghdkyufhjg;huioh conversation :3',
+        date: 12032022
+    },
+    {
+        title: 'in your head - Charlie',
+        thumb: 'https://i1.sndcdn.com/artworks-aD2Om93SuOLeLtFL-z9rCug-t500x500.jpg',
+        link: 'https://soundcloud.com/charliemakesmusic/in-your-head',
+        desc: 'inyourhead',
         date: 12032022
     },
 ]

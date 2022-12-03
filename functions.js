@@ -25,7 +25,7 @@ function Format8Date(raw, version) {
 function BuildNav() {
     let yes = `<li><a href="https://cinimin.net">home</a></li>
     <li><a href="https://cinimin.net/about.html">about me</a></li>
-    <li><a href="https://cinimin.net/recs.html/">recs</a></li>
+    <li><a href="https://cinimin.net/recs.html">recs</a></li>
     <li><a href="https://cinimin.net/keys/">xtra keys</a></li>
     <br>
     <li><b>social</b></li>
