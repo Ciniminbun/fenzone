@@ -1,70 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>steme keyz</title>
-	<meta charset="utf-8">
-	<meta property="og:site" content="cinimin.net">
-	<meta name="viewport" content="width=500">
-	<meta name="description" content="">
-	<meta property="og:title" content="steme keyz">
-	<meta property="og:description" content="">
-	<meta property="og:image" content="">
-	<meta property="og:url" content="http://cinimin.net/keys/">
-	<meta name="twitter:card" content="summary_large_image">
+<html>
+    <head>
+        <title>slaterot</title>
+        <link href="../main.css" rel="stylesheet">
+    </head>
+    <body>
 
-	<link rel="apple-touch-icon" sizes="57x57" href="/images/ico/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/images/ico/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/images/ico/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/images/ico/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/images/ico/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/images/ico/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/images/ico/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/images/ico/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/images/ico/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/images/ico/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/images/ico/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/images/ico/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/images/ico/favicon-16x16.png">
-	<link rel="manifest" href="/images/ico/manifest.json">
-	<meta name="msapplication-TileColor" content="#000000">
-	<meta name="msapplication-TileImage" content="/images/ico/ms-icon-144x144.png">
-	<meta name="theme-color" content="#000000">
+        <header>
+            <h1>slaterot</h1>
+            
+        </header>
+        
+        <main>
+            <ul id="nav"></ul>
+        </main>
 
-	<link href="../main.css" rel="stylesheet">
+        <img src="img/kityrun.gif" style="display: block; margin: auto;">
 
-    <style>
-        #card-grid {
-            /* grid */
-            grid-template-columns: 1fr 1fr;
-        }
-    </style>
+        <script src="../data.js"></script>
+        <script src="../functions.js"></script>
+		<script type="text/javascript" src="steam keys.js"></script>
+		<script type="text/javascript" src="load keys.js"></script>
+        <script>
+            document.getElementsByTagName("main")[0].innerHTML += makeCards(`
+			<h2>xtra steme keyz</h2>
+			<p>sometimes i get bundles and theres games i dont care about<br>if you use one or a key doesnt work pls msg me</p>`);
+            document.getElementById("nav").innerHTML = BuildNav();
+        </script>
 
-</head>
-<body class="">
-
-	<header class="unselectable" id="top"></header>
-	<ul class="menu" id="menu"></ul>
-
-	<div class="main-grid">
-		<div class="aboutpage">
-			<h2>steme keyz</h2>
-			<p>sometimes i get bundles and theres games i dont care about<br><u>if you use one or a key doesnt work pls <a href="#footer">msg me</a></u></p>
-		</div>
-
-		<div class="search_container">
-			<form action="index.html">
-				<input type="text" id="tags" name="tags" placeholder="Search this page..."  value="" class="searchbar" onkeyup="getSearchUL()" autocomplete="off">
-			</form>
-			<ul id="searchdrop" class="dropdown"></ul>
-		</div>
-
-		<main id="main"><div id="card-grid" style="height: min-content;"></div></main>
-	</div>
-    <script type="text/javascript" src="steam keys.js"></script>
-	<script type="text/javascript" src="load keys.js"></script>
-
-	<footer id="footer" class=""></footer>
-	<script type="text/javascript" src="../js/general.js"></script>
-
-</body>
+    </body>
 </html>

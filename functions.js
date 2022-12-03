@@ -36,7 +36,7 @@ function BuildNav() {
     <br>`;
 
     for (i = 0; i < buttonList.length; i++) {
-        yes += `<li><img src="img/buttons/${buttonList[i]}"></li>`
+        yes += `<li><img src="https://cinimin.net/img/buttons/${buttonList[i]}"></li>`
     }
 
     return yes
@@ -47,7 +47,7 @@ function BuildRecs(desc) {
     tempFeedList = recsList;
     for (let i = 0; i < recsList.length; i++){
         thing += `
-        <img src="${recsList[i].thumb}">
+            <img src="${recsList[i].thumb}">
             <h3><a href="${recsList[i].link}" target="_blank">${recsList[i].title}</a></h3>
             <h6>${Format8Date(recsList[i].date, 1)}</h6>
             ${recsList[i].desc}<hr>
