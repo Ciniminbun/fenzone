@@ -47,7 +47,7 @@ function BuildRecs(desc) {
     tempFeedList = recsList;
     for (let i = 0; i < recsList.length; i++){
         thing += `
-            <img src="${recsList[i].thumb}">
+            <img src="${recsList[i].thumb}" onclick="OpenImage(this)">
             <h3><a href="${recsList[i].link}" target="_blank">${recsList[i].title}</a></h3>
             <h6>${Format8Date(recsList[i].date, 1)}</h6>
             ${recsList[i].desc}<hr>
@@ -56,3 +56,49 @@ function BuildRecs(desc) {
     thing += `</div>`
     return thing
 }
+
+function OpenImage(imgEl) {
+    let widthThing;
+    if (imgEl.offsetWidth > imgEl.offsetHeight) {
+        widthThing = 700;
+    } else {
+        widthThing = 500;
+    }
+
+    let newHeight = widthThing * (imgEl.offsetHeight / imgEl.offsetWidth);
+    console.log(newHeight);
+
+    let imgStyle = `style="
+        position: absolute;
+        top: 0;
+        width: ${widthThing}px;
+        margin-left: calc(50vw - ${(widthThing/2)}px);
+        margin-top: calc(50vh - ${newHeight/2}px);
+        z-index: 99;
+        image-rendering: auto;
+        box-shadow: 2.7px 5.4px 5.4px hsl(0deg 0% 0% / 0.35);
+        "`,
+    shade = `
+        onclick="CloseImage()"
+        style="
+        background-color: rgba(20,20,20,0.9); 
+        width: 100vw; 
+        height: 100vh; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 50;
+        "`;
+    document.getElementsByTagName('body')[0].innerHTML += 
+        `<img class="imgClose" src='${imgEl.src}' ${imgStyle}>
+        <div class="imgClose" ${shade}></div>`;
+}
+
+function CloseImage() {
+    let bodyStuff = document.getElementsByTagName('body')[0],
+    children = bodyStuff.children;
+    for (let i = 0; i < 2; i++) {
+        bodyStuff.removeChild(children[children.length - 1]);
+    }
+}
+    

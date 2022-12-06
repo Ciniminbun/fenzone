@@ -99,6 +99,7 @@ a:hover {
     width: auto;
     float: left;
     margin: 3px 10px 0 0;
+    cursor: pointer;
 }
 
 #feed h3 {
