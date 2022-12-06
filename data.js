@@ -65,7 +65,7 @@ const recsList = [
         thumb: 'https://pbs.twimg.com/media/FjOZwm4akAAiheC?format=jpg&name=large',
         link: 'https://twitter.com/52penguin52/status/1599791698028421121',
         desc: 'i cradle angel devil lovingly',
-        date: 12032022
+        date: 12052022
     },
     {
         title: 'chroma - quickly, quickly',
