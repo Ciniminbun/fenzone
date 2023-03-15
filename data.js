@@ -7,7 +7,7 @@ const feed = {
         {
             title: "just rememebred this was here lolll",
             link: "https://soundcloud.com/aphextwinsucks/messy",
-            description: "im so high and listening to breakcore on my little speakers :3 it feels like it should be later in the night i should add things to this site",
+            description: "im so <a href='lol/imsohighlol.HTML'>high</a> and listening to breakcore on my little speakers :3 it feels like it should be later in the night i should add things to this site",
             pubDate: 3142023
         },
         {
@@ -66,6 +66,41 @@ const buttonList = [
 ]
 
 const recsList = [
+    {
+        title: 'Ride on Time (Jamie Paige Arrange) - Jamie Paige',
+        thumb: 'img/dance-dance-moves.gif',
+        link: 'https://soundcloud.com/jamieirl/ride-on-time-jamie-paige-arrange',
+        desc: '',
+        date: 3142023
+    },
+    {
+        title: 'thread - gonima',
+        thumb: 'https://i1.sndcdn.com/artworks-ijXCph8kXn6JZDOH-hMDuKw-t500x500.jpg',
+        link: 'https://soundcloud.com/gonima/thread',
+        desc: '/\^/\^^\___.... :3 **',
+        date: 3142023
+    },
+    {
+        title: 'tattoos - STOMACH BOOK',
+        thumb: 'https://i1.sndcdn.com/artworks-rqtiJqTmJSwlYKyW-Wjk5pA-t500x500.jpg',
+        link: 'https://soundcloud.com/stomachbook/tattoos',
+        desc: 'WHYDIDNOONETELLMEABOUTTHISBAND',
+        date: 3142023
+    },
+    {
+        title: `Jippy's In My City (feat. Jalen Tyree) - Miles Powers`,
+        thumb: 'https://i1.sndcdn.com/artworks-Ob9JrYz07zkrwcCE-KQhVQQ-t500x500.jpg',
+        link: 'https://soundcloud.com/milespowers/jippys-in-my-city',
+        desc: 'wish i could make piano riffs with my mouth',
+        date: 3142023
+    },
+    {
+        title: `#scuffgod - ilysm`,
+        thumb: 'https://i1.sndcdn.com/artworks-rgkLrhlJ1FAHeQZb-2PrC2g-t500x500.jpg',
+        link: 'https://soundcloud.com/iluvyousomuch/sets/scuffgod',
+        desc: '(ʘᴥʘ) got that dawg in it',
+        date: 3142023
+    },
     {
         title: '👼 - 52penguin52',
         thumb: 'https://pbs.twimg.com/media/FjOZwm4akAAiheC?format=jpg&name=large',
