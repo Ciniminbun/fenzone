@@ -1,0 +1,8 @@
+main {
+    grid-template-columns: auto;
+    display: flex;
+}
+
+#feed img {
+    height: 120px;
+}

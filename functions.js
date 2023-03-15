@@ -38,6 +38,15 @@ function BuildFeed(type, desc) {
                 `
             }
             return head + `</div>`
+        },
+        media=()=> {
+            for (let i = 0; i < mediaList.length; i++){
+                head += `
+                <img src="${mediaList[i].link}" onclick="OpenImage(this)">
+
+            `
+            }
+            return head + `</div>`
         }
     ];
     return allFeeds[type]();
@@ -45,6 +54,8 @@ function BuildFeed(type, desc) {
 
 function Format8Date(raw, version) {
     raw = raw.toString();
+    if (raw.length < 8) { raw = "0" + raw; }
+
     let months = ['fake', 'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC',],
     versionList = [
         `${raw.slice(0,2)}/${raw.slice(2,4)}/${raw.slice(4,8)}`,
@@ -55,8 +66,10 @@ function Format8Date(raw, version) {
 
 function OpenImage(imgEl) {
     let widthThing;
-    if (imgEl.offsetWidth > imgEl.offsetHeight) {
-        widthThing = 700;
+    if (imgEl.offsetWidth == imgEl.offsetHeight) {
+        widthThing = window.innerHeight * 0.6;
+    } else if (imgEl.offsetWidth > imgEl.offsetHeight){
+        widthThing = 900;
     } else {
         widthThing = 500;
     }

@@ -5,9 +5,15 @@ const feed = {
     description: "",
     items: [
         {
+            title: "just rememebred this was here lolll",
+            link: "https://soundcloud.com/aphextwinsucks/messy",
+            description: "im so high and listening to breakcore on my little speakers :3 it feels like it should be later in the night i should add things to this site",
+            pubDate: 3142023
+        },
+        {
             title: "like the 3rd total remake launch lol",
-            link: "",
-            description: "it's 1:26 am aand im pubilshing the site again, if an old link is broken a copy of the old site is at old.cinimin.net",
+            link: "lol/BOOM.HTML",
+            description: "it's 1:26 am aand im pubilshing the site again, if an old link is broken a copy of the old site is at <a href='https://old.cinimin.net/'>old.cinimin.net</a>",
             pubDate: 11292022
         },
         {
