@@ -7,7 +7,7 @@ const feed = {
         {
             title: "just rememebred this was here lolll",
             link: "https://soundcloud.com/aphextwinsucks/messy",
-            description: "im so <a href='lol/imsohighlol.HTML'>high</a> and listening to breakcore on my little speakers :3 it feels like it should be later in the night i should add things to this site",
+            description: "im so <a style='text-decoration: none;' href='lol/imsohighlol.HTML'>high</a> and listening to breakcore it feels like it should be later i should add things to this site",
             pubDate: 3142023
         },
         {
@@ -17,35 +17,47 @@ const feed = {
             pubDate: 11292022
         },
         {
-            title: "Tally Hall :D",
-            link: "https://ever17.neocities.org/thrandomizer.html",
-            description: "cilck the link do it c:",
-            pubDate: 11282022
-        },
-        {
             title: "You should play Franken",
             link: "https://splendidland.itch.io/franken",
             description: "franken is a game you should be playing",
             pubDate: 11282022
         },
         {
-            title: "test one",
-            link: "test.html",
-            description: "testing is fun right",
-            pubDate: 11242022
+            title: "xtra steam keys",
+            link: "https://cinimin.net/keys/",
+            description: "i end up with leftover steam keys from game bundles n stuff and i dont care to sell them, so anyone can pick them up at this site",
+            pubDate: 12032021
         },
         {
-            title: "test two",
-            link: "test.html",
-            description: "i can feel myself being tested",
-            pubDate: 11242022
+            title: "simple physics test",
+            link: "https://old.cinimin.net/example/js/phyics/",
+            description: "little basic physics engine i coded in my free time at a job recently\ntheres no collision between objects atm but i'll get to it eventually",
+            pubDate: 10162021
         },
         {
-            title: "test three",
-            link: "test.html",
-            description: "i'm always being tested",
-            pubDate: 11242022
+            title: "dog age",
+            link: "https://cinimin.itch.io/dog-age",
+            description: "did a game jam with a friend by pulling an all nighter right before the submission was due. it's mostly just strange but i mean that in a good way<br><a href='https://cinimin.itch.io/dog-age'>game page</a><br><a href='https://itch.io/jam/random-wikihow-jam'>jam page</a>",
+            pubDate: 6152020
         },
+        // {
+        //     title: "test one",
+        //     link: "test.html",
+        //     description: "testing is fun right",
+        //     pubDate: 11242022
+        // },
+        // {
+        //     title: "test two",
+        //     link: "test.html",
+        //     description: "i can feel myself being tested",
+        //     pubDate: 11242022
+        // },
+        // {
+        //     title: "test three",
+        //     link: "test.html",
+        //     description: "i'm always being tested",
+        //     pubDate: 11242022
+        // },
     ]
 }
 
