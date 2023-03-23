@@ -7,7 +7,7 @@ const feed = {
         {
             title: "just rememebred this was here lolll",
             link: "https://soundcloud.com/aphextwinsucks/messy",
-            description: "im so <a style='text-decoration: none;' href='lol/imsohighlol.HTML'>high</a> and listening to breakcore it feels like it should be later i should add things to this site",
+            description: "im so h<a style='text-decoration: none;' href='lol/imsohighlol.HTML'>i</a>gh and listening to breakcore it feels like it should be later i should add things to this site",
             pubDate: 3142023
         },
         {

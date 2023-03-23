@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Lobster Sans';
+    src: url(fonts/LobsterTwo-Italic.ttf);
+}
+
+body {
+    background-color: #151515;
+    color: black;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+    transition: 3s;
+    margin: 0;
+    margin-top: -24px;
+}
+
+header {
+    margin: 25px 25px 0;
+    padding: 1px 0 16px;
+    width: 712px;
+    transition: 2.5s;
+    border-radius: 16px;
+    background-color: #efefef;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 9px;
+    margin-top: 22px;
+    transition: 2.5s;
+}
+
+header nav {
+    display: flex;
+    margin: auto;
+    width: 440px;
+    height: 86px;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+}
+
+header nav img {
+    transition: 0.2s;
+    width: 75px;
+    height: max-content;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+header hr {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 627px;
+    height: 3px;
+    border: none;
+    background-color: grey;
+    transition: 1s;
+    margin-top: 14px;
+}
+
+main {
+    margin: auto;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 5;
+}
+
+.backdrop {
+    background-color: white;
+    width: min-content;
+    margin: auto;
+    padding: 30px 0 30px;
+    transition: 2.5s;
+}
+
+#card {
+    background-color: white;
+    padding: 5px 40px 10px;
+    margin: 20px 25px;
+    transition: 2.5s;
+    border: 1px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+    /* height: 64px; */
+}
+
+#card h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#card p {
+    margin-top: 5px;
+}
+
+#card img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
