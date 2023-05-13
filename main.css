@@ -61,6 +61,10 @@ main {
     overflow: hidden;
 }
 
+main div {
+    overflow: scroll;
+}
+
 #nav {
     list-style-type: none;
     padding-left: 10px;

@@ -5,6 +5,12 @@ const feed = {
     description: "",
     items: [
         {
+            title: "wittewey hitting da gwiddy in minecwaf",
+            link: "posts/essentialminecraftmods.html",
+            description: "im gonna start updating this site every friday! to start im just making <a href='posts/essentialminecraftmods.html'>a little post</a> about some minecraft mods i like",
+            pubDate: 5122023
+        },
+        {
             title: "just rememebred this was here lolll",
             link: "https://soundcloud.com/aphextwinsucks/messy",
             description: "im so h<a style='text-decoration: none;' href='lol/imsohighlol.HTML'>i</a>gh and listening to breakcore it feels like it should be later i should add things to this site",
