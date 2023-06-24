@@ -5,6 +5,12 @@ const feed = {
     description: "",
     items: [
         {
+            title: "STEAM NEXT FEST BABY WOOOO",
+            link: "posts/nextfest2023.html",
+            description: "haven't i been so good at weekly updates!! anyways this week i talk about a lot of cool game demos i played and liked from this years Next Fest.",
+            pubDate: 6232023
+        },
+        {
             title: "wittewey hitting da gwiddy in minecwaf",
             link: "posts/essentialminecraftmods.html",
             description: "im gonna start updating this site every friday! to start im just making <a href='posts/essentialminecraftmods.html'>a little post</a> about some minecraft mods i like",

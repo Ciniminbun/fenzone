@@ -16,7 +16,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: white;
+    background: rgb(133, 133, 133);
     width: 2px;
     
 }
@@ -63,6 +63,10 @@ main {
 
 main div {
     overflow: scroll;
+}
+
+br {
+    
 }
 
 #nav {
