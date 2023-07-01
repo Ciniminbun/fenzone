@@ -5,6 +5,12 @@ const feed = {
     description: "",
     items: [
         {
+            title: "long week, good music tho",
+            link: "recs.html",
+            description: "its been a long week for me so no little article this friday, but recently 2 of my fav bands have released new albums! so ive added those to my recs page this week. lookin forward to a weekend of Big Chillinᵀᴹ after probably the most stressful job i've ever worked, cya next week",
+            pubDate: 6302023
+        },
+        {
             title: "STEAM NEXT FEST BABY WOOOO",
             link: "posts/nextfest2023.html",
             description: "haven't i been so good at weekly updates!! anyways this week i talk about a lot of cool game demos i played and liked from this years Next Fest.",
@@ -91,6 +97,20 @@ const buttonList = [
 
 const recsList = [
     {
+        title: ' The Brightest Days - Origami Angel',
+        thumb: 'https://i1.sndcdn.com/artworks-SRsK6QtQl023-0-t500x500.jpg',
+        link: 'https://soundcloud.com/origamiangel/sets/the-brightest-days',
+        desc: 'singlehandedly improving my boring summer',
+        date: 6302023
+    },
+    {
+        title: 'Biblickle - Bickle',
+        thumb: 'https://i1.sndcdn.com/artworks-6ccaa247-c829-4dad-84d1-abe2c2eeeddb-0-t500x500.jpg',
+        link: 'https://soundcloud.com/heybickle/sets/biblickle-1',
+        desc: 'Bickleheads Know Whats Up',
+        date: 6302023
+    },
+    {
         title: 'Ride on Time (Jamie Paige Arrange) - Jamie Paige',
         thumb: 'img/dance-dance-moves.gif',
         link: 'https://soundcloud.com/jamieirl/ride-on-time-jamie-paige-arrange',
@@ -127,7 +147,7 @@ const recsList = [
     },
     {
         title: '👼 - 52penguin52',
-        thumb: 'https://pbs.twimg.com/media/FjOZwm4akAAiheC?format=jpg&name=large',
+        thumb: 'https://pbs.twimg.com/media/FjOZwm4akAAiwXp?format=jpg&name=large',
         link: 'https://twitter.com/52penguin52/status/1599791698028421121',
         desc: 'i cradle angel devil lovingly',
         date: 12052022
