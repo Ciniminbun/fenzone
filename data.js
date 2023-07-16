@@ -1,9 +1,15 @@
 // mimicking rss feed because yeah
 const feed = {
-    title: "yeah",
+    title: "homepage feed",
     link: "",
     description: "",
     items: [
+        {
+            title: "anodyne 2!!!!!",
+            link: "posts/anodyne2.html",
+            description: "i recently played anodyne 2! i think it broke something in me and fixed something in me at the same time! AAAAAAAAA!",
+            pubDate: 7152023
+        },
         {
             title: "long week, good music tho",
             link: "recs.html",
