@@ -7,7 +7,7 @@
     image-rendering: pixelated;
     box-sizing: border-box;
     scrollbar-color: white black;
-    font-family: 'ms gothic';
+    font-family: 'ms gothic', 'bak gothic';
 }
 
 ::-webkit-scrollbar {
