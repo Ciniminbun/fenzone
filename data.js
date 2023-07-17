@@ -13,7 +13,7 @@ const feed = {
         {
             title: "long week, good music tho",
             link: "recs.html",
-            description: "its been a long week for me so no little article this friday, but recently 2 of my fav bands have released new albums! so ive added those to my recs page this week. lookin forward to a weekend of Big Chillinᵀᴹ after probably the most stressful job i've ever worked, cya next week",
+            description: "its been a long week for me so no little article this friday, but recently 2 of my fav bands have released new albums! so ive added those to my recs page this week. lookin forward to a weekend of chilling after probably the most stressful job i've ever worked, cya next week",
             pubDate: 6302023
         },
         {
