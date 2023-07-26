@@ -5,6 +5,12 @@ const feed = {
     description: "",
     items: [
         {
+            title: "what if everything sucked",
+            link: "https://youtu.be/BoJ0pfhMmfU",
+            description: "but im like okay and fine, chill even\ni'll have a regular post this friday im making this post so i feel obligated and thats all lol ☺",
+            pubDate: 7262023
+        },
+        {
             title: "anodyne 2!!!!!",
             link: "posts/anodyne2.html",
             description: "i recently played anodyne 2! i think it broke something in me and fixed something in me at the same time! AAAAAAAAA!",
