@@ -5,6 +5,12 @@ const feed = {
     description: "",
     items: [
         {
+            title: "happy hollidays",
+            link: "sex2",
+            description: "everything i want to say all the time sucks so bad",
+            pubDate: 12142023
+        },
+        {
             title: "what if everything sucked",
             link: "sex",
             description: "but im like okay and fine, chill even\ni'll have a regular post this friday im making this post so i feel obligated and thats all lol ☺",
