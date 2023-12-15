@@ -5,6 +5,7 @@ const feed = {
     description: "",
     items: [
         {
+<<<<<<< HEAD
             title: "happy hollidays",
             link: "sex2",
             description: "everything i want to say all the time sucks so bad",
@@ -12,6 +13,15 @@ const feed = {
         },
         {
             title: "what if everything sucked",
+=======
+            title: "update: shit sucked",
+            link: "sex2",
+            description: "i moved and it killed every routine i kept including this site. realized my medication sucks and i need new stuff and i dont really want to do anything anymore. i think i can make myself do this now though. no promises :) cyu next week",
+            pubDate: 9242023
+        },
+        {
+            title: "what if shit sucked",
+>>>>>>> 15357f74e78046899752bef4780e5055e534c56b
             link: "sex",
             description: "but im like okay and fine, chill even\ni'll have a regular post this friday im making this post so i feel obligated and thats all lol ☺",
             pubDate: 7262023
@@ -19,7 +29,7 @@ const feed = {
         {
             title: "anodyne 2!!!!!",
             link: "posts/anodyne2.html",
-            description: "i recently played anodyne 2! i think it broke something in me and fixed something in me at the same time! AAAAAAAAA!",
+            description: "i recently played anodyne 2! this is my first game to make me think about anything.",
             pubDate: 7152023
         },
         {
